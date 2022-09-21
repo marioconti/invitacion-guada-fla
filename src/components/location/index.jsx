@@ -34,10 +34,11 @@ export const Location = () => {
           data-aos-once="true"
           data-aos-anchor-placement="top-center"
         >
-          <div className="container-img-style">
+          <div className="container-img-style" style={{ height: 180}}>
             <img
+            style={{ height: 150,marginTop:30}}
               className="img-styles"
-              src="images/church.png"
+              src="images/church6.png"
               alt="church"
               loading="lazy"
             />
@@ -51,10 +52,10 @@ export const Location = () => {
             <br /> ROMANO 651,
             <br /> YERBA BUENA, TUCUMÁN
           </p>
-          {/* <p className="description-text-two">
+          <p className="description-text-two">
             <span className="bold line-heigh">HORARIO:</span>
-            <br /> 19:45 HS
-          </p> */}
+            <br /> 18:00 HS
+          </p>
           <a
             className="link-map"
             href="https://goo.gl/maps/P4b1MKf9D9cgwzEk6"
@@ -83,29 +84,37 @@ export const Location = () => {
           data-aos-once="true"
           data-aos-anchor-placement="top-center"
         >
-          <div className="container-img-style">
-            <img
+          <div className="container-img-style  gif-dance" style={{ height: 180,}}>
+            
+            {/* <img
               className="img-styles couple-dance"
               src="images/party1.png"
               alt="party"
               loading="lazy"
+            /> */}
+            <img
+             style={{ height: 240,}}
+              alt="party"
+              className="img-styles couple-dance"
+              src="https://media4.giphy.com/media/sZorfXxRDb4D8qllg0/giphy.gif?cid=790b76117b07f25079fa07ced0c3a8162a0556f3b9d7d168&rid=giphy.gif&ct=g"
+              title="couple"
             />
           </div>
           <p className="description-text-two">
             <span className="bold line-heigh">SALÓN:</span>
-            <br /> ESPACIO TAFI I
+            <br /> SAN PABLO COUNTRY
           </p>
           <p className="description-text-two">
             <span className="bold line-heigh">UBICACIÓN:</span>
-            <br /> RUTA 313, KM 5.0  <br /> TAFÍ VIEJO, TUCUMÁN
+            <br />AV. SOLANO VERA, <br /> RUTA 339 KM 5 <br /> YERBA BUENA, TUCUMÁN
           </p>
-          {/* <p className="description-text-two">
+          <p className="description-text-two">
             <span className="bold line-heigh">HORARIO:</span>
-            <br /> 21:00 HS
-          </p> */}
+            <br /> 19:30 HS
+          </p>
           <a
             className="link-map"
-            href="https://goo.gl/maps/PsSZg1eAEM2ixQ3J6"
+            href="https://g.page/san-pablo-country-life-golf-?share"
             target="_blank"
             rel="noreferrer"
           >

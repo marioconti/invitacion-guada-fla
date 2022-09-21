@@ -74,7 +74,18 @@ export const NavBar = () => {
                   INICIO
                 </Link>
               </li>
-
+              <li>
+                <Link
+                  className={`link`}
+                  to="ceremonia-fiesta"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={1000}
+                >
+                  CEREMONIA Y FIESTA
+                </Link>
+              </li>
               <li>
                 <Link
                   className={`link`}
@@ -88,18 +99,7 @@ export const NavBar = () => {
                   CONFIRMAR
                 </Link>
               </li>
-              <li>
-                <Link
-                  className={`link`}
-                  to="ceremonia-fiesta"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={1000}
-                >
-                  CEREMONIA Y FIESTA
-                </Link>
-              </li>
+            
               {/* <li>
                 <Link
                   onClick={() => {
@@ -139,7 +139,7 @@ export const NavBar = () => {
                   AGRADECIMIENTO
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   className={`link`}
                   to="playlist"
@@ -150,7 +150,7 @@ export const NavBar = () => {
                 >
                   PLAYLIST
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   className={`link`}
@@ -201,21 +201,6 @@ export const NavBar = () => {
                   setMenuActive(false);
                 }}
                 className={`link`}
-                to="confirmation"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={1000}
-              >
-                CONFIRMAR
-              </Link>
-            </li>
-            <li>
-              <Link
-                onClick={() => {
-                  setMenuActive(false);
-                }}
-                className={`link`}
                 to="ceremonia-fiesta"
                 spy={true}
                 smooth={true}
@@ -225,6 +210,22 @@ export const NavBar = () => {
                 CEREMONIA Y FIESTA
               </Link>
             </li>
+            <li>
+              <Link
+                onClick={() => {
+                  setMenuActive(false);
+                }}
+                className={`link`}
+                to="confirmation"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >
+                CONFIRMAR
+              </Link>
+            </li>
+           
             {/* <li>
               <Link
                 onClick={() => {
@@ -269,7 +270,7 @@ export const NavBar = () => {
             >
               TE ESPERAMOS
             </Link>
-            <li>
+            {/* <li>
               <Link
                 onClick={() => {
                   setMenuActive(false);
@@ -283,7 +284,7 @@ export const NavBar = () => {
               >
                 PLAYLIST
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 onClick={() => {

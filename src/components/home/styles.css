@@ -1,11 +1,11 @@
 .home-container {
   align-items: center;
-  background: url(../../../public/images/photos-negro-agus/4.jpg) fixed;
+  background: url(../../../public/images/photos-guada-fla/1.jpg) fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 43%;
+  background-position-y:25%;
   display: flex;
-  height: auto;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   padding: 0;
@@ -78,9 +78,9 @@
 @media screen and (max-width: 980px) {
   .home-container {
     height: 100vh;
-    background: url(../../../public/images/photos-negro-agus/4.jpg);
+    background: url(../../../public/images/photos-guada-fla/1.jpg);
     background-repeat: no-repeat;
-    background-position-y: 100%;
+    background-position-y: 0%;
     background-position-x: 50%;
     background-size: 180%;
     padding-top: 0rem;
@@ -94,19 +94,19 @@
   }
 
   .title-home {
-    font-size: 3.5em;
+    font-size: 4em;
     font-weight: 300;
     margin: 0;
     margin-bottom: 0rem;
     /* padding-top: 1.5rem;; */
     position: absolute;
-    top: 7%;
+    top: 10%;
     /* top: 33%; */
     width: 100%;
   }
 
   .sub-title-home {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 500;
     letter-spacing: 4px;
     padding: 1rem 0;

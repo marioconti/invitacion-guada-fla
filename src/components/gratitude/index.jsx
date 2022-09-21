@@ -16,7 +16,7 @@ export const Gratitude = () => {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
       >
-        GRACIAS
+        CADA VEZ FALTA MENOS
       </h1>
       <p
         className="description-text width-gratitude"
@@ -29,7 +29,10 @@ export const Gratitude = () => {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
       >
-        No queremos dejar de agradecerles por ser parte de este día tan importante para nosotros, también por ser parte de nuestra historia y de todo el camino que recorrimos hasta aquí.<br/> A nuestra familia, amigos y a todos los que estuvieron, están y sin dudas sabemos que seguirán estando, muchas gracias! <br/>¡Estamos felices de compartirlo <br/>con todos ustedes!
+        Queremos darles las gracias a todos: amigos, familiares y seres queridos
+        que nos han acompañado desde siempre.
+        <br /> Es una alegría gigante para nosotros poder compartir este momento
+        con ustedes. Esperamos que nos sigan acompañando ahora y siempre!
       </p>
       <Carousel
         animation="slide"
@@ -51,7 +54,7 @@ export const Gratitude = () => {
         <div className="container-retrat">
           <img
             className="retrat"
-            src="images/photos-negro-agus/1.jpg"
+            src="images/photos-guada-fla/4.jpg"
             alt="pareja"
             loading="lazy"
           />
@@ -59,7 +62,7 @@ export const Gratitude = () => {
         <div className="container-retrat">
           <img
             className="retrat"
-            src="images/photos-negro-agus/7.jpg"
+            src="images/photos-guada-fla/9.jpg"
             alt="pareja"
             loading="lazy"
           />
@@ -67,7 +70,7 @@ export const Gratitude = () => {
         <div className="container-retrat">
           <img
             className="retrat"
-            src="images/photos-negro-agus/5.jpg"
+            src="images/photos-guada-fla/5.jpg"
             alt="pareja"
             loading="lazy"
           />
@@ -75,7 +78,7 @@ export const Gratitude = () => {
         <div className="container-retrat">
           <img
             className="retrat"
-            src="images/photos-negro-agus/6.jpg"
+            src="images/photos-guada-fla/2.jpg"
             alt="pareja"
             loading="lazy"
           />
@@ -83,7 +86,7 @@ export const Gratitude = () => {
         <div className="container-retrat">
           <img
             className="retrat"
-            src="images/photos-negro-agus/8.jpg"
+            src="images/photos-guada-fla/12.jpg"
             alt="pareja"
             loading="lazy"
           />
@@ -91,7 +94,7 @@ export const Gratitude = () => {
         <div className="container-retrat">
           <img
             className="retrat"
-            src="images/photos-negro-agus/10.jpg"
+            src="images/photos-guada-fla/15.jpg"
             alt="pareja"
             loading="lazy"
           />
@@ -99,7 +102,7 @@ export const Gratitude = () => {
         <div className="container-retrat">
           <img
             className="retrat"
-            src="images/photos-negro-agus/9.jpg"
+            src="images/photos-guada-fla/18.jpg"
             alt="pareja"
             loading="lazy"
           />
@@ -107,7 +110,7 @@ export const Gratitude = () => {
         <div className="container-retrat">
           <img
             className="retrat"
-            src="images/photos-negro-agus/11.jpg"
+            src="images/photos-guada-fla/14.jpg"
             alt="pareja"
             loading="lazy"
           />
@@ -115,7 +118,7 @@ export const Gratitude = () => {
         <div className="container-retrat">
           <img
             className="retrat"
-            src="images/photos-negro-agus/12.jpg"
+            src="images/photos-guada-fla/13.jpg"
             alt="pareja"
             loading="lazy"
           />

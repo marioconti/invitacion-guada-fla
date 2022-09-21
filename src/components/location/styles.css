@@ -1,10 +1,14 @@
+.location-main-container{
+  margin-top: 80px;
+}
+
 .container-location {
   align-items: center;
   background-color: var(--color-2);
   display: flex;
   justify-content: center;
-  height: 45rem !important;
-  margin-bottom: 3vh;
+  height: 41rem !important;
+  margin-bottom: 0vh;
   padding: 12vh 0;
   width: 100%;
 }
@@ -15,7 +19,7 @@
   justify-content: flex-start;
   flex-direction: column;
   height: 100%;
-  margin: 20vh 5vh;
+  margin: 18vh 5vh;
   width: 35%;
 }
 
@@ -74,6 +78,7 @@
   .location-main-container {
     overflow: hidden;
     justify-content: flex-start;
+    margin-top: 40px;
   }
 
   .container-location {
@@ -109,8 +114,8 @@
     width: 100% !important;
   }
 
-  .estancia{
-    margin-top: 4vh !important;
+  .gif-dance{
+margin-top: -10px;
   }
   /* ANIMACION PARA QUE BAILEN LOS "NOVIOS" LA ANIMACIÓN ESTÁ EN EL INDEX PORQUE ES LA MISMA QUE RESERVE */
   /* .couple-dance {

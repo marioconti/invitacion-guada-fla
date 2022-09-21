@@ -35,7 +35,7 @@ export const DressCode = () => {
         <div className="container-img-style">
           <img
             className="img-styles"
-            src="images/dresscode.png"
+            src="images/dresscode6.png"
             alt="dress"
             loading="lazy"
           />

@@ -8,12 +8,15 @@
   --color-6: #e8b791c3;
   --color-7: #e8c7b0a4;
   --color-8: #00a892;
-  --font-title-main: 'Charmonman', cursive;
+  /* --font-title-main: 'Charmonman', cursive; */
+  --font-title-main: 'Oooh Baby', cursive;
+
   /* --font-title-main: "DM Serif Display", serif; */
   
   --font-subtitle-main:'Nunito Sans', sans-serif;
   /* --font-subtitle-main: "Montserrat", sans-serif; */
-  --font-subtitle: 'Ne-Sans';
+  /* --font-subtitle: 'Ne-Sans'; */
+  --font-subtitle: 'Amatic SC', cursive;;
   /* --font-subtitle: "DM Serif Display", serif; */
   --font-body-main: 'Modern-Sans';
   /* --font-body-main: "Montserrat", sans-serif; */
@@ -81,7 +84,7 @@ code {
 /* ESTILOS GENERALES DESKTOP*/
 .title-section {
   font-family: var(--font-subtitle);
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 100;
   margin: 0 auto;
   margin-top: 5vh;
@@ -126,7 +129,7 @@ code {
 /* ESTILOS GENERALES MOBILE*/
 @media screen and (max-width: 980px) {
   .title-section {
-    font-size: 2em;
+    font-size: 2.7em;
     font-weight: bold;
     margin: 0 auto;
     margin-top: 5vh;

@@ -37,6 +37,7 @@
 @media screen and (max-width: 980px) {
   .container-main-gifts {
     overflow: hidden;
+    margin-top: 5vh;
   }
 
   .container-gifts {
