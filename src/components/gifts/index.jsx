@@ -30,8 +30,8 @@ export const Gifts = () => {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
       >
-        Lo más importante para nosotros es que puedas estar ahí presente. Si
-        aparte querés hacernos un regalo,
+        Lo más importante para nosotros es que puedas estar ahí presente.
+        <br /> Si aparte querés hacernos un regalo,
         <br /> podés ayudarnos con nuestra luna de miel.
       </p>
       <div
@@ -48,7 +48,7 @@ export const Gifts = () => {
         <div className="data-gits">
           <div className="container-img-style ">
             <img
-            style={{height:180}}
+              style={{ height: 180 }}
               className="img-styles"
               src="images/honneymoon6.png"
               alt="honeymoon"

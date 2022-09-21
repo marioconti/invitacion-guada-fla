@@ -34,7 +34,7 @@ export const Location = () => {
           data-aos-once="true"
           data-aos-anchor-placement="top-center"
         >
-          <div className="container-img-style" style={{ height: 180}}>
+          <div className="container-img-style img-responsive-church" style={{ height: 180}}>
             <img
             style={{ height: 150,marginTop:30}}
               className="img-styles"
