@@ -1,0 +1,130 @@
+.container-reserve {
+  align-items: center;
+  background-color: var(--color-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  height: auto;
+  width: 100%;
+}
+
+.info-reserve {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.confirmation-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.modal-confirmation {
+  background-color: var(--color-5);
+  border-radius: 40px;
+  box-shadow: 0px 8px 10px -6px rgba(32, 32, 32, 0.75);
+  border-style: none;
+  cursor: pointer;
+  color: var(--color-2);
+  padding: 0.8rem 4rem;
+  font-size: 1em;
+  font-weight:  var(--weight-bottons);
+  letter-spacing: 6px;
+  margin-bottom: 5vh;
+  text-align: center;
+  font-family: var(--font-bottons);
+  /* text-shadow: 5px 5px #5555553a; */
+  user-select: none;
+  transition: all 0.3s ease;
+  width: auto;
+  text-decoration: none;
+}
+
+.modal-confirmation:hover {
+  background-color: var(--color-6);
+  transition: all 0.3s ease;
+}
+
+.invitation-animation {
+  width: auto;
+  animation: dance 9s ease 0s infinite normal both;
+}
+
+/* ======================== */
+/* MODAL */
+/* .modal-box {
+  position: relative;
+  height: 80vh;
+  width: 40%;
+}
+
+.form-reserve {
+  align-items: center;
+  background-color: var(--color-2);
+  border: none;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.exit {
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+  font-weight: 900;
+  position: absolute;
+  user-select: none;
+} */
+/* ======================= */
+@media screen and (max-width: 980px) {
+  .container-reserve {
+    margin: 0 auto;
+    margin-top: 0vh;
+    height: auto;
+    justify-content: center;
+ 
+    overflow: hidden;
+    width: 80%;
+  }
+
+  /* ESTILO UNICO PARA IMAGEN INVITATION */
+  .margin-img {
+    margin: 7vh 0;
+  }
+
+  .modal-confirmation {
+    font-size: 1em;
+    letter-spacing: 4px;
+    margin-bottom: 5vh;
+    text-align: center;
+    padding: 0.8rem 0rem;
+    width: 100%;
+  }
+
+  /* 
+  .modal-box {
+    background-color: var(--color-2);
+    position: relative;
+    padding-top: 5vh;
+    height: 85%;
+    width: 100%;
+  }
+
+  .exit {
+    font-size: 1.2em;
+    top: 15px;
+    right: 10px;
+  } */
+}

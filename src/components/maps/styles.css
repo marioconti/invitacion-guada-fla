@@ -1,0 +1,14 @@
+.container {
+  height: 60vh;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+
+.container-map {
+  width: 100%;
+}
+@media screen and (max-width: 980px) {
+  .container {
+    margin-bottom: 2vh;
+  }
+}

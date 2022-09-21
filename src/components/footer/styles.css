@@ -1,0 +1,152 @@
+.footer-container {
+  background-color: var(--color-2);
+  height: 20vh;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+  border-top: var(--color-1) 3px solid;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 4vh;
+  width: 80%;
+}
+
+.message-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 8px;
+  margin: 0;
+}
+
+.container-links {
+  display: flex;
+}
+
+.container-links > a {
+  align-items: center;
+  color: var(--color-1);
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  margin-top: 20px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.container-links > a:hover {
+  margin-top: 10px;
+  transition: all 0.2s ease;
+}
+/* 
+.container-links > a:nth-child(1) {
+  border-right: #252525 3px solid;
+} */
+
+.container-links > a:nth-child(2) {
+  margin-left: 25px;
+}
+
+.wsp-container {
+  height: 2.2rem;
+}
+
+.name-wsp {
+  font-size: 1.4em;
+}
+
+.link-wsp {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image-wsp {
+  height: 100%;
+  margin-left: 10px;
+  object-fit: cover;
+}
+
+.footer-mario {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-left: auto;
+  bottom: 10px;
+  right: 20px;
+}
+
+.footer-mario > a {
+  color: var(--color-1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link-mario {
+  margin-left: 0.2em;
+}
+/* ESTILO PROPIO DE SVG WSP MARIO */
+.mario {
+  margin: 0;
+  margin-left: 0.1rem;
+  height: 0.97rem;
+}
+/* ===================== */
+@media screen and (max-width: 980px) {
+  .footer-container {
+    height: auto;
+  }
+
+  .container-links {
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .message-title {
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  .container-links > a {
+    border-radius: 0px;
+    border: none;
+    font-size: 0.8em;
+    height: 2.5rem;
+    margin: 0;
+    padding: 0rem;
+    width: auto;
+  }
+
+  .container-links > a:hover {
+    margin-top: unset;
+    transition: unset;
+  }
+
+  .wsp-container {
+    height: 1.6rem;
+  }
+
+  .name-wsp {
+    font-size: 1.5em;
+  }
+
+  .footer-mario {
+    align-items: center;
+    position: unset;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5vh;
+    font-size: 0.8em;
+    width: 100%;
+  }
+
+  .mario {
+    height: 1rem;
+  }
+}

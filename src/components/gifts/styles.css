@@ -1,0 +1,65 @@
+.container-main-gifts {
+  overflow: hidden;
+  background-color: var(--color-2);
+}
+
+.container-gifts {
+  align-items: center;
+  background-color: var(--color-2);
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 7vh;
+  height: auto;
+  width: 100%;
+}
+
+.data-gits {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 5rem;
+  width: 35%;
+}
+
+/* ESTILO UNICO DE ESTA SECTION */
+
+.data-gits > p {
+  margin: 0.5rem 0;
+  font-size: 1.2em;
+  text-align: center;
+  letter-spacing: 3px;
+  width: 70%;
+}
+
+/* ======================= */
+@media screen and (max-width: 980px) {
+  .container-main-gifts {
+    overflow: hidden;
+  }
+
+  .container-gifts {
+    height: auto;
+    margin: 0vh auto;
+    width: auto;
+  }
+
+  .data-gits {
+    width: 100%;
+  }
+
+  .data-gits > p {
+    font-size: 0.9em;
+    line-height: 30px;
+    width: 100%;
+  }
+
+  .line-height {
+    margin-bottom: 100px;
+  }
+
+  .letter{
+    margin-top: 3vh;
+  }
+}

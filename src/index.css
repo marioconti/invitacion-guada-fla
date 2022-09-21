@@ -1,0 +1,221 @@
+:root {
+  --color-1: #252525;
+  --color-2: #ffffff;
+  --color-3: #ffffffbd;
+  /* --color-4: #ffffff49; */
+  --color-4: #2b2b2b6e;
+  --color-5: #e8c7b0;
+  --color-6: #e8b791c3;
+  --color-7: #e8c7b0a4;
+  --color-8: #00a892;
+  --font-title-main: 'Charmonman', cursive;
+  /* --font-title-main: "DM Serif Display", serif; */
+  
+  --font-subtitle-main:'Nunito Sans', sans-serif;
+  /* --font-subtitle-main: "Montserrat", sans-serif; */
+  --font-subtitle: 'Ne-Sans';
+  /* --font-subtitle: "DM Serif Display", serif; */
+  --font-body-main: 'Modern-Sans';
+  /* --font-body-main: "Montserrat", sans-serif; */
+  --font-bottons: 'Raleway', sans-serif;
+  --weight-bottons:800
+  /* --font-bottons: "Montserrat", sans-serif; */
+}
+
+/* FONTS */
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: 'Gudea', sans-serif; */
+/* font-family: 'Waterfall', cursive; */
+/* font-family: 'DM Serif Display', serif; */
+/* font-family: 'Quicksand', sans-serif; */
+/* font-family: "Bodoni Moda", serif; */
+/* font-family: 'PT Sans', sans-serif; */
+/* font-family: 'Istok Web', sans-serif; */
+/* font-family: 'Modern-Sans' */
+/* font-family: 'Ne-Sans' */
+
+/* COMINATION 1 */
+/* --font-title-main: "DM Serif Display", serif;
+--font-subtitle-main: "Montserrat", sans-serif;
+--font-subtitle: "DM Serif Display", serif; */
+/* COMINATION 2 */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
+/* COMINATION 3 */
+/* SOLO TITULO CON COOKIE */
+/* font-family: 'Cookie', cursive;
+font-family: 'Open Sans', sans-serif; */
+/* COMINATION 4 */
+/*font-family: 'Montez', cursive; 
+font-family: 'Libre Baskerville', serif;
+font-family: 'Quicksand', sans-serif;
+*/
+/* COMINATION 5 
+font-family: 'Suranna', serif;
+font-family: 'Fraunces', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+/* COMINATION 6 
+font-family: 'Charmonman', cursive;
+font-family: 'DM Serif Display', serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
+/* ============================= */
+
+body {
+  background-color: var(--color-2);
+  color: var(--color-1);
+  box-sizing: border-box;
+  overflow: auto;
+  font-family: var(--font-body-main);
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ==================================================== */
+/* ESTILOS GENERALES DESKTOP*/
+.title-section {
+  font-family: var(--font-subtitle);
+  font-size: 3em;
+  font-weight: 100;
+  margin: 0 auto;
+  margin-top: 5vh;
+  text-align: center;
+  width: 80%;
+}
+
+/* FIXME:LOS TEXTOS DE LAS DESCRIPCIONES QUEDARON MUY FLACOS VER DE PASAR A 200? */
+.description-text {
+  font-size: 1.4em;
+  font-weight: 400;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.description-text-two {
+  font-size: 1.4em;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.container-img-style {
+  height: 150px;
+  margin: 5vh 0;
+}
+
+.img-styles {
+  height: 100%;
+  object-fit: cover;
+}
+
+.music-2 {
+  animation: music-2 4s ease-in-out 0s infinite normal both;
+}
+
+/* ESTILOS GENERALES MOBILE*/
+@media screen and (max-width: 980px) {
+  .title-section {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 90%;
+    overflow: hidden;
+  }
+
+  /* AQUI DESCRIPTIONS SON IGUALES PORQUE SON DIFERENTES EN DESKTOP */
+  .description-text {
+    font-size: 1em;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-top: 0vh;
+    text-align: center;
+    width: 80%;
+  }
+
+  .description-text-two {
+    font-size: 1em;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-top: 0vh;
+    text-align: center;
+    width: 80%;
+  }
+
+  .container-img-style {
+    height: 140px;
+    margin-bottom: 5vh;
+  }
+
+  .img-styles {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+/* ==================================================== */
+
+@font-face {
+  font-family: als-script;
+  src: url(../src/assets/als-script.regular.ttf);
+}
+
+@font-face {
+  font-family: The-Yoshi;
+  src: url(../src/assets/The-Yoshi.ttf);
+}
+
+@font-face {
+  font-family: merlin-regular;
+  src: url(../src/assets/merlin-regular.ttf);
+}
+@font-face {
+  font-family: Modern-Sans;
+  src: url(../src/assets/ModernSans-Light.otf);
+}
+@font-face {
+  font-family: Ne-Sans;
+  src: url(../src/assets/NesansSemiBold.ttf);
+}
+
+@keyframes dance {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 0;
+  }
+
+  10% {
+    transform: rotate(2deg);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: rotate(-4deg);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: rotate(4deg);
+  }
+
+  80% {
+    transform: rotate(-2deg);
+  }
+
+  90% {
+    transform: rotate(2deg);
+  }
+}

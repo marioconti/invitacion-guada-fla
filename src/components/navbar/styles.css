@@ -1,0 +1,131 @@
+.container-main-navbar {
+  height: auto;
+}
+
+.nav-container {
+  align-items: center;
+  box-shadow: 0px 5px 10px -6px rgba(121, 121, 121, 0.75);
+  border-bottom: var(--color-5) 2px solid;
+  background-color: var(--color-2);
+  display: flex;
+  height: auto;
+  justify-content: center;
+  position: fixed;
+  margin-bottom: 10vh;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+}
+
+.logo-container {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  left: 0;
+  letter-spacing: -3px;
+  position: absolute;
+}
+
+.logo-container .letter {
+  font-size: 0.5em;
+}
+
+.links-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: auto;
+}
+
+.links-container > li {
+  color: var(--color-1);
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  margin: 0.5rem 1.5rem;
+  user-select: none;
+  transition: all 0.1s ease;
+}
+
+.links-container > li:hover {
+  font-weight: bold;
+}
+
+/* ========================= */
+/* NAVBAR */
+
+.container-hamburguesa {
+  background-color: var(--color-3);
+  border-radius: 5px;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  height: 2rem;
+  width: 2rem;
+  z-index: 1000;
+  position: fixed;
+}
+
+.image-hamburguesa {
+  height: 2rem;
+  object-fit: cover;
+}
+
+.menu-desplegable {
+  align-items: center;
+  background-color: var(--color-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 55vh;
+  top: 0;
+  right: 0;
+  position: fixed;
+  transition: all 0.3s ease;
+  width: 100%;
+  z-index: 110;
+}
+
+.display-none {
+  width: 0;
+}
+
+.display-none-links {
+  display: none;
+}
+
+.list-links-burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.links-burger-container {
+  width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+  .link {
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,85 @@
+.gratitude-container {
+  align-items: center;
+  background-color: var(--color-2);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+.carousel-mui-proyect {
+  height: 65vh;
+  margin-top: 5vh;
+  margin-bottom: 0vh;
+  padding-top: 5vh;
+  width: 60%;
+}
+
+.container-retrat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../public/images/fondo1.jpg);
+  /* border: 6px solid var(--color-5); */
+  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.336);
+  border-radius: 10px;
+  padding: 20px;
+  height: auto;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.retrat {
+  border-radius: 10px;
+  height: 50vh;
+  object-fit: scale-down;
+  width: 100%;
+}
+
+/* ESTILO PROPIO */
+.width-gratitude {
+  width: 60%;
+}
+
+/* FLECHITA CAROUSEL */
+.MuiButtonBase-root > svg > path {
+  fill: var(--color-1);
+}
+
+@media screen and (max-width: 980px) {
+  .gratitude-container {
+    width: 100%;
+  }
+
+  .carousel-mui-proyect {
+    height: 65vh;
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+    padding-top: 5vh;
+    width: 100%;
+  }
+
+  .container-retrat {
+    height: auto;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.144);
+    padding: 40px 20px;
+    width: 100%;
+  }
+
+  .retrat {
+    height: 45vh;
+  }
+
+  /* FELCHITA */
+  .MuiButtonBase-root {
+    margin: 0 !important;
+  }
+
+  /* ESTILO PROPIO */
+  .width-gratitude {
+    width: 75%;
+  }
+}
