@@ -30,7 +30,7 @@ export const ListWedding = () => {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
       >
-        ¿NOS AYUDÁS CON LA MÚSICA?
+        #GUADAySANTI
       </h1>
       <div
         className="container-music"
@@ -44,18 +44,18 @@ export const ListWedding = () => {
         data-aos-anchor-placement="top-center"
       >
         <p className="description-text">
-          Dejanos tu recomendación <br /> de esa canción que no puede faltar y
-          bailémosla juntos esa noche!
+          ¡Compartamos juntos el gran día! Usá nuestro #hashtag para subir tus
+          fotos y videos
         </p>
-        <div className="container-img-style music-2">
+        <div className="container-img-style " style={{ marginBottom: "100px" }}>
           <img
             className="img-styles"
-            src="images/music.png"
+            src="images/social-media.png"
             alt="spotify"
             loading="lazy"
           />
         </div>
-        <a
+        {/* <a
           className="link-playlist" style={{fontWeight:400}}
           // TODO:LINK A FORMULARIO CON RECOMENDACIONES
           href="https://forms.gle/Jg32FimKJuLDXcyw9"
@@ -78,7 +78,7 @@ export const ListWedding = () => {
               alt="play list link"
             />
           </div>
-        </a>
+        </a> */}
       </div>
     </div>
   );

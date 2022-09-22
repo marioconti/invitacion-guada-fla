@@ -99,7 +99,6 @@ export const NavBar = () => {
                   CONFIRMAR
                 </Link>
               </li>
-            
               {/* <li>
                 <Link
                   onClick={() => {
@@ -139,18 +138,7 @@ export const NavBar = () => {
                   AGRADECIMIENTO
                 </Link>
               </li>
-              {/* <li>
-                <Link
-                  className={`link`}
-                  to="playlist"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={1000}
-                >
-                  PLAYLIST
-                </Link>
-              </li> */}
+              INSTAGRAM
               <li>
                 <Link
                   className={`link`}
@@ -225,7 +213,7 @@ export const NavBar = () => {
                 CONFIRMAR
               </Link>
             </li>
-           
+
             {/* <li>
               <Link
                 onClick={() => {
@@ -270,7 +258,7 @@ export const NavBar = () => {
             >
               TE ESPERAMOS
             </Link>
-            {/* <li>
+            <li>
               <Link
                 onClick={() => {
                   setMenuActive(false);
@@ -282,9 +270,9 @@ export const NavBar = () => {
                 offset={0}
                 duration={1000}
               >
-                PLAYLIST
+                INSTAGRAM
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link
                 onClick={() => {

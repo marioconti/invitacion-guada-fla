@@ -5,7 +5,7 @@ import { Reserve } from "./components/reserve";
 import { Location } from "./components/location";
 // import Maps from "./components/maps";
 import { Gifts } from "./components/gifts";
-// import { ListWedding } from "./components/musicList";
+import { ListWedding } from "./components/musicList";
 import { Gratitude } from "./components/gratitude";
 import { Footer } from "./components/footer";
 import { DressCode } from "./components/dressCode";
@@ -23,7 +23,7 @@ function App() {
       <DressCode />
       <Gifts />
       <Gratitude />
-      {/* <ListWedding /> */}
+      <ListWedding />
       <Footer />
     </div>
   );
