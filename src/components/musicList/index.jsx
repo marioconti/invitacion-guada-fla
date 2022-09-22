@@ -44,7 +44,7 @@ export const ListWedding = () => {
         data-aos-anchor-placement="top-center"
       >
         <p className="description-text">
-          ¡Compartamos juntos el gran día! Usá nuestro #hashtag para subir tus
+          Compartamos juntos el gran día! Usá nuestro #hashtag para subir tus
           fotos y videos
         </p>
         <div className="container-img-style " style={{ marginBottom: "100px" }}>
