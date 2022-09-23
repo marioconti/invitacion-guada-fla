@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 // import { CountDownMarried } from "../countdown";
 
 import "./styles.css";
@@ -15,7 +15,7 @@ export const Home = () => {
         <h2 className="sub-title-home" style={{userSelect:"none"}}>¡NOS CASAMOS!</h2>
         {/* TODO:AQUI HAY QUE HACER EN DESKTOP POSITION PARA MANEJAR LOS ELEMENTOS ASI NO TAPAN CARAS */}
         {/* <CountDownMarried /> */}
-        <Link
+        {/* <Link
           className="link-confirmation"
           to="confirmation"
           spy={true}
@@ -24,7 +24,7 @@ export const Home = () => {
           duration={1000}
         >
           CONFIRMAR ASISTENCIA
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

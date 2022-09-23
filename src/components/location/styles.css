@@ -81,6 +81,7 @@
     margin-top: 20px;
   }
 
+  
   .container-location {
     flex-direction: column;
     height: auto !important;
@@ -121,6 +122,11 @@
 
   .img-responsive-church {
     margin-top: 0px;
+  }
+
+  .fiesta-title{
+    margin-top:0;
+    font-size: 50px !important;
   }
   /* ANIMACION PARA QUE BAILEN LOS "NOVIOS" LA ANIMACIÓN ESTÁ EN EL INDEX PORQUE ES LA MISMA QUE RESERVE */
   /* .couple-dance {

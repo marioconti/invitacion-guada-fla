@@ -5,7 +5,7 @@ export const DressCode = () => {
   return (
     <div id="dress-code" className="container-lista-wedding">
       <h1
-        className="title-section margin-distinto"
+        className="title-section margin-distinto dress-title"
         data-aos="fade-right"
         data-aos-offset="-200"
         data-aos-delay="0"

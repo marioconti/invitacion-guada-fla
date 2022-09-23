@@ -34,7 +34,7 @@ export const Reserve = () => {
     <div id="confirmation" className="container-reserve">
       <div className="info-reserve">
         <h1
-          className="title-section"
+          className="title-section reserve-title"
           data-aos="fade-up"
           data-aos-offset="-200"
           data-aos-delay="0"
@@ -58,9 +58,9 @@ export const Reserve = () => {
           data-aos-anchor-placement="top-center"
         >
           <h2 className="description-text">
-            <span className="bold">Nos casamos el 18/10/2022</span> <br />
+            <span className="bold">Nos casamos el 20/11/2022</span> <br />
             y esperamos contar con vos! <br />
-            Te pedimos que nos confirmes tu asistencia hasta el 1 de noviembre.
+            Te pedimos que nos confirmes tu asistencia hasta el 20 de Octubre.
           </h2>
           <div className="container-img-style margin-img invitation-animation">
             <img

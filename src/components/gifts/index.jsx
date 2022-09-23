@@ -80,7 +80,7 @@ export const Gifts = () => {
           </p>
         </div>
       </div>
-      <div
+      {/* <div
         className="container-gifts"
         data-aos="fade-left"
         data-aos-offset="-200"
@@ -104,7 +104,7 @@ export const Gifts = () => {
             <span className="bold line-heigh">BUZÓN EN EL SALÓN</span>
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

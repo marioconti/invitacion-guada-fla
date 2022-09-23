@@ -113,6 +113,9 @@
     width: 100%;
   }
 
+  .reserve-title{
+    margin-top: 10px;
+  }
   /* 
   .modal-box {
     background-color: var(--color-2);

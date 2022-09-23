@@ -8,20 +8,7 @@ AOS.init();
 export const Location = () => {
   return (
     <div className="location-main-container">
-      <h1
-        id="ceremonia-fiesta"
-        className="title-section"
-        data-aos="fade-left"
-        data-aos-offset="-200"
-        data-aos-delay="0"
-        data-aos-duration="1000"
-        data-aos-easing="ease"
-        data-aos-mirror="true"
-        data-aos-once="true"
-        data-aos-anchor-placement="top-center"
-      >
-        CEREMONIA Y FIESTA
-      </h1>
+    
       <div className="container-location">
         <div
           className="data-location"
@@ -34,9 +21,26 @@ export const Location = () => {
           data-aos-once="true"
           data-aos-anchor-placement="top-center"
         >
-          <div className="container-img-style img-responsive-church" style={{ height: 180}}>
+           <h1
+        id="ceremonia-fiesta"
+        className="title-section"
+        data-aos="fade-left"
+        data-aos-offset="-200"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        data-aos-anchor-placement="top-center"
+      >
+        CEREMONIA
+      </h1>
+          <div
+            className="container-img-style img-responsive-church"
+            style={{ height: 180 }}
+          >
             <img
-            style={{ height: 150,marginTop:30}}
+              style={{ height: 150, marginTop: 30 }}
               className="img-styles"
               src="images/church6.png"
               alt="church"
@@ -54,7 +58,7 @@ export const Location = () => {
           </p>
           <p className="description-text-two">
             <span className="bold line-heigh">HORARIO:</span>
-            <br /> 18:00 HS
+            <br /> 17:30 HS
           </p>
           <a
             className="link-map"
@@ -84,8 +88,24 @@ export const Location = () => {
           data-aos-once="true"
           data-aos-anchor-placement="top-center"
         >
-          <div className="container-img-style  gif-dance" style={{ height: 180,}}>
-            
+          <h1
+            id="ceremonia-fiesta "
+            className="title-section fiesta-title"
+            data-aos="fade-left"
+            data-aos-offset="-200"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-center"
+          >
+            FIESTA
+          </h1>
+          <div
+            className="container-img-style  gif-dance"
+            style={{ height: 180 }}
+          >
             {/* <img
               className="img-styles couple-dance"
               src="images/party1.png"
@@ -93,7 +113,7 @@ export const Location = () => {
               loading="lazy"
             /> */}
             <img
-             style={{ height: 240,}}
+              style={{ height: 240 }}
               alt="party"
               className="img-styles couple-dance"
               src="https://media4.giphy.com/media/sZorfXxRDb4D8qllg0/giphy.gif?cid=790b76117b07f25079fa07ced0c3a8162a0556f3b9d7d168&rid=giphy.gif&ct=g"
@@ -106,7 +126,8 @@ export const Location = () => {
           </p>
           <p className="description-text-two">
             <span className="bold line-heigh">UBICACIÓN:</span>
-            <br />AV. SOLANO VERA, <br /> RUTA 339 KM 5 <br /> YERBA BUENA, TUCUMÁN
+            <br />
+            AV. SOLANO VERA, <br /> RUTA 339 KM 5 <br /> YERBA BUENA, TUCUMÁN
           </p>
           <p className="description-text-two">
             <span className="bold line-heigh">HORARIO:</span>
