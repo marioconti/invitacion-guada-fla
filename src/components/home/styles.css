@@ -3,7 +3,7 @@
   background: url(../../../public/images/photos-guada-fla/1.jpg) fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y:25%;
+  background-position-y: 25%;
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -18,7 +18,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 10vh 0;
   width: 100%;
 }
@@ -75,14 +75,41 @@
 }
 
 /* =============================== */
+.container-names {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+}
+
+.letra-y {
+  color: #d6d6d6cc;
+  font-size: 2em;
+}
+
+.nombre-guada,
+.nombre-fla {
+  font-family: "Oooh Baby";
+  font-size: 4em;
+  font-weight: bold;
+  color: #ebebeba6;
+  height: auto;
+  z-index: 10;
+}
+
+.nombre-fla {
+  text-align: right;
+}
+
 @media screen and (max-width: 980px) {
   .home-container {
     height: 100vh;
-    background: url(../../../public/images/photos-guada-fla/1.jpg);
+    background: url(../../../public/images/photos-guada-fla/gyf2.png);
     background-repeat: no-repeat;
     background-position-y: 0%;
     background-position-x: 50%;
-    background-size: 180%;
+    /* background-size: 180%; */
+    background-size: cover;
     padding-top: 0rem;
     overflow: hidden;
   }
@@ -126,10 +153,46 @@
     /* top: 87%; */
     top: 91%;
     width: 92%;
-    background-color: #D6B994;
+    background-color: #d6b994;
+  }
+
+  /* ============================ */
+
+  .avila {
+    margin: 0;
+    margin-left: 75px;
+    margin-top: -25px;
+    font-weight: 400;
+    color: #ebebeb83;
+    font-size: 0.6em;
+  }
+
+  .container-fla {
+    margin-left: auto;
+  }
+
+  .santi {
+    margin: 0;
+    /* margin-right: 50px; */
+    font-size: 0.8em;
+  }
+
+  .fla {
+    margin: 0;
+    margin-right: -15px;
+    margin-top: -30px;
+    font-weight: 400;
+    color: #ebebeb83;
+    font-size: 0.6em;
   }
 }
 
+.letra-y {
+  margin-top: -10px;
+  margin-bottom: -20px;
+  text-align: center;
+  z-index: 0;
+}
 /* ESTO ES PARA TITLE EN MOBILE MUY CHICO */
 
 @media screen and (max-width: 375px) {
