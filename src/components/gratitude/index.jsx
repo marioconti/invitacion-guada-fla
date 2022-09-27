@@ -63,7 +63,7 @@ export const Gratitude = () => {
         <div className="container-retrat">
           <img
             className="retrat"
-            src="images/photos-guada-fla/2.jpg"
+            src="images/photos-guada-fla/3.jpg"
             alt="pareja"
             loading="lazy"
           />

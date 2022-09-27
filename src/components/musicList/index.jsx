@@ -30,7 +30,7 @@ export const ListWedding = () => {
         data-aos-once="true"
         data-aos-anchor-placement="top-center"
       >
-        #GUADAySANTI
+        #GUADIyFLA
       </h1>
       <div
         className="container-music"
