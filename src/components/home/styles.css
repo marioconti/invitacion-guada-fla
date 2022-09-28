@@ -105,7 +105,8 @@
 @media screen and (max-width: 980px) {
   .home-container {
     height: 100vh;
-    background: url(../../../public/images/photos-guada-fla/fondo2.png);
+    
+    background: url(../../../public/images/photos-guada-fla/fondo3.png);
     background-repeat: no-repeat;
     background-position-y: 0%;
     background-position-x: 50%;
