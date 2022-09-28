@@ -33,7 +33,7 @@ export const Gratitude = () => {
         felices de compartirlo con ustedes! Queremos darles las gracias a
         nuestra familia y amigos, por habernos acompañado con tanto amor y
         aguante, por ser hinchas de este equipo! Estamos ansiosos por verlos
-        ahí! Los esperamos ❤️
+        ahí!<br/> Los esperamos ❤️
       </p>
       <Carousel
         animation="slide"
